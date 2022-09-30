@@ -24,9 +24,9 @@
 
         <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
         <div id="smallScreenNav" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
-            <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large" id="work_ejxp">Education/Work Overview</a>
-            <a href="resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large" id="rkesume">Resume</a>
-            <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large" id="contajct">Contact</a>
+            <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()" id="work_exp">Education/Work Overview</a>
+            <a href="resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()" id="resume">Resume</a>
+            <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()" id="contact">Contact</a>
         </div>
 
         <!-- First Grid: Logo & About -->
@@ -38,7 +38,7 @@
                         style="width:20%; height:05%">
                     <div class="w3-left-align w3-padding-small">
                         <p>Hi there, you can call me Sasank. Welcome to my static page</p>
-                        <p>&emsp;&emsp; A Highly motivated computer science graduate
+                        <p style="text-align:justify">&emsp;&emsp; A Highly motivated computer science graduate
                             student passionate about Web technologies &#38 Salesforce ecosystem.
                             Have 2 years of IT experience &#38 worked as a Certified Salesforce Developer in an Agile
                             environment.
