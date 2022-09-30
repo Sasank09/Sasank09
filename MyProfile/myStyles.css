@@ -1,0 +1,14 @@
+.res_ppImage {
+    margin:1em;
+    width:50%; 
+    height:75%
+}
+
+.res_name {
+    margin:1em;
+}
+
+.button-container-div {
+    position: relative;
+    left: 80%;
+}

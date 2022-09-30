@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Profile</title>
+</head>
+
+<body class="w3-content" style="max-width:100%">
+    <main class="w3-black">
+        <div class="w3-top">
+            <div class="w3-bar w3-black w3-card">
+                <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                    href="javascript:void(0)" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
+                <a href="#aboutGrid" class="w3-bar-item w3-button w3-padding-large" id="home">Home</a>
+                <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small" id="work_exp">Education/Work Overview</a>
+                <a href="/resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small" id="resume">Resume</a>
+                <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small" id="contact">Contact</a>
+            </div>
+        </div>
+
+        <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+        <div id="smallScreenNav" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
+            <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large" id="work_ejxp">Education/Work Overview</a>
+            <a href="/resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large" id="rkesume">Resume</a>
+            <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large" id="contajct">Contact</a>
+        </div>
+
+        <!-- First Grid: Logo & About -->
+        <div id="aboutGrid" class="w3-row">
+            <div class="w3-full w3-blue-grey w3-container" style="height: 720px;">
+                <div class="w3-padding-64 w3-center w3-padding-large">
+                    <h1>Venkata Lakshmi Sasank Tipparaju</h1>
+                    <img src="/images/pp.jpg" class="w3-margin w3-circle" alt="Person"
+                        style="width:20%; height:05%">
+                    <div class="w3-left-align w3-padding-small">
+                        <p>Hi there, you can call me Sasank.</p>
+                        <p>&emsp;&emsp; A Highly motivated computer science graduate
+                            student passionate about Web technologies &#38 Salesforce ecosystem.
+                            Have 2 years of IT experience &#38 worked as a Certified Salesforce Developer in an Agile
+                            environment.
+                            Experienced in developing customized solutions per business requirements on the
+                            Salesforce.com and have sound
+                            knowledge of Java &#38 Web technologies. Always ready to work in any challenging environment
+                            to prove my skills and utilize
+                            my knowledge for the organization's growth through continuous learning and following
+                            industry best practices.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Second Grid: Work & Resume -->
+        <div id="workGrid"  class="w3-row w3-margin-top w3-indigo" style="height: 700px;">
+            <br><br>
+            <div class="w3-full w3-indigo w3-container w3-center" id="work">
+                <h2>Work History Overview</h2>
+                <div class="w3-container w3-responsive">
+                    <table class="w3-table">
+                        <tr class="w3-grey">
+                            <th>Year</th>
+                            <th>Organization</th>
+                            <th>Location</th>
+                            <th>Role</th>
+                            <th>Key Technologies</th>
+                        </tr>
+                        <tr class="w3-white">
+                            <td>Apr 2021 - Jul 2022</td>
+                            <td>PriceWaterhouseCoopers Accelaration Center</td>
+                            <td>Bangalore, India</td>
+                            <td>Associate Salesforce Developer</td>
+                            <td>Salesforce Lightning, Apex, Triggers, Aura, LwC, salesforce.com CRM Configurations &#38 Development</td>
+                        </tr>
+                        <tr class="w3-white w3-border">
+                            <td>Aug 2020 - Apr 2021</td>
+                            <td>Cognizant Technology Solutions</td>
+                            <td>Chennai, India</td>
+                            <td>Programmer Analyst Trainee</td>
+                            <td>Informatica PowerCenter, MySQL, Unix Shell Scripting, Salesforce, Apex Test Classes</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="w3-full w3-indigo w3-container">
+                <div class="w3-padding-64 w3-center">
+                    <h2>Education History Overview</h2>
+                    <div class="w3-container w3-responsive">
+                        <table class="w3-table">
+                            <tr class="w3-grey">
+                                <th>Year</th>
+                                <th>Qualification</th>
+                                <th>School/University</th>
+                                <th>Location</th>
+                                <th>Grade/Percentage</th>
+                            </tr>
+                            <tr class="w3-white">
+                                <td>Aug 2022 - Dec 2023</td>
+                                <td>Master of Science in Computer Science</td>
+                                <td>University of Central Missouri</td>
+                                <td>Lees' Summit, Missouri, USA</td>
+                                <td>7.35 CGPA  (3.42/4 GPA)</td>
+                            </tr>
+                            <tr class="w3-white w3-border">
+                                <td>Jun 2016 - May 2020</td>
+                                <td>Bachelor of Technology in Computer Science &#38 Engineering</td>
+                                <td>SASTRA Deemed University</td>
+                                <td>Thanjavur, India</td>
+                                <td>7.35 CGPA  (3.42/4 GPA)</td>
+                            </tr>
+                            <tr class="w3-white w3-border">
+                                <td>Jun 2015 - Apr 2016</td>
+                                <td>Intermediate 12<sup>th</sup> Standard</td>
+                                <td>Sri Chaitanya Junior College</td>
+                                <td>Nellore, India</td>
+                                <td>9.5/10 GPA </td>
+                            </tr>
+                            <tr class="w3-white">
+                                <td>Jun 2013 - Apr 2014</td>
+                                <td>10<sup>th</sup> Standard (SSC)</td>
+                                <td>Sri Netaji Pilot (E.M) High School</td>
+                                <td>Nellore, India</td>
+                                <td>96.9%</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Third Grid: Swing By & Contact -->
+        <div id="contactGrid" class="w3-row w3-dark-grey"style="height: 600px;" >
+            <div class="w3-full w3-dark-grey w3-container w3-center">
+                <div class="w3-padding-64  w3-padding-large">
+                    <h1>Swing By</h1>
+                    <p class="w3-opacity">..for a cup of coffee, or whatever.</p>
+                    <p>Overland Park, Kansas, US</p>
+                    <p>+1 4807969822</p>
+                    <p>thipparajusasank@gmail.com</p>
+                </div>
+                <hr>
+                <div class="w3-center">
+                    <b><i class="fa fa-link fa-fw w3-margin-right w3-text-teal"></i>Links</b>
+                    <p class="w3-teal"><a href="https://github.com/Sasank09" target="_blank" style="text-decoration: none;">Github</a></p>
+                    <p class="w3-teal"><a href="https://trailblazer.me/id/sasank09" target="_blank" style="text-decoration: none;">Trailhead</a></p>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-black w3-padding-8 w3-center">
+            <p>Powered By w3.css</p>
+        </footer>
+    </main>
+
+    <script>
+        var $ = (id) => document.getElementById(id);
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleMenu() {
+            var x = document.getElementById("smallScreenNav");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+</body>
+
+</html>
