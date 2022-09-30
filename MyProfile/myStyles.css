@@ -9,6 +9,7 @@
 }
 
 .button-container-div {
-    position: relative;
-    left: 80%;
+    float: left;
+    position: fixed;
+    left: 90%;
 }
