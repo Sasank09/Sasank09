@@ -20,7 +20,6 @@
   
   <br>
 ---
-  ### - Languages and Tools...
   - An enthusiastic traiblazer who explores and learn new features in Salesforce ecosystem
   - I'd also love to have any open opportunities coming to me related to Javascript full stack development - React, Node, Next and any upcoming JS frameworks
   
