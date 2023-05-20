@@ -4,7 +4,8 @@
   <samp>
     I'm Sasank Tipparaju :wave:
     <br><br>
-    I work as a Software Developer :coffee: . I have done many projects at university. I started to love and do full stack development (Salesforce, PHP, MERN) projects as a hobby! #Anime lover #Cricket
+    I work as a Software Developer :coffee: . I started to love and do full stack development (Salesforce, PHP, MERN) projects as a hobby! I begin doing projects with PHP - MySQL , MERN web applications. Along with it I continue to improve myself by exploring Salesforce stack.
+  #Anime lover #Cricket #loves challenges
     <br><br>
     Currently I'm pursuing master's degree at University of Central Missouri. And 👀 I’m interested in Salesforce / Web Technologies/ Software Development ...
     <br><br>
@@ -19,6 +20,10 @@
   
   <br>
 ---
+  ### - Languages and Tools...
+  - An enthusiastic traiblazer who explores and learn new features in Salesforce ecosystem
+  - I'd also love to have any open opportunities coming to me related to Javascript full stack development - React, Node, Next and any upcoming JS frameworks
+  
 ###  - Follow me on
    <a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/">
     <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/png/social/linkedin.png" alt="example badge" style="vertical-align:top margin:6px 4px">
@@ -31,20 +36,9 @@
   </a>
   
   
-  
-  
-### - Languages and Tools...
-  - An enthusiastic traiblazer who explores and learn new features in Salesforce ecosystem
-  - I'd also love to any open opportunities related to Javascript full stack development - React, Node, Next and any upcoming JS frameworks
+ 
 
-<p align="center">
 
-  <!-- For more icons please follow  https://github.com/MikeCodesDotNET/ColoredBadges -->
-  <img src="https://github.com/Quadrified/Quadrified/blob/master/assets/svg/dev/languages/java.svg" alt="java" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/Quadrified/Quadrified/blob/master/assets/svg/dev/languages/js.svg" alt="js" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/Quadrified/Quadrified/blob/master/assets/svg/dev/services/dockerhub.svg" alt="docker" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/Quadrified/Quadrified/blob/master/assets/svg/dev/services/aws.svg" alt="aws" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/Quadrified/Quadrified/blob/master/assets/svg/dev/tools/jetbrains_intellij.svg" alt="intelij" style="vertical-align:top; margin:4px">
 
 ---
 
