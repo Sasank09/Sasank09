@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://giphy.com/embed/lcM8hVXy87yN3aTjte" width="480" height="480" class="giphy-embed"></img>
+  <img src="https://media.giphy.com/media/lcM8hVXy87yN3aTjte/giphy-downsized-large.gif" width="480" height="480" class="giphy-embed"></img>
   <br><br>
   <samp>
     I'm Sasank Tipparaju :wave:
