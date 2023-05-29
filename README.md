@@ -10,7 +10,8 @@
     Currently I'm pursuing master's degree at University of Central Missouri. And 👀 I’m interested in Salesforce / Web Technologies/ Software Development ...
     <br><br>
   <a href ="https://sasank-tipparaju-dev-ed.my.site.com/">Portfolio Link</a>  (using Salesforce Lightning Framework (LWC, Flow))
-      Click Here to navigate to my [#Static Page My Profile](https://sasank09.github.io/Sasank09/MyProfile/index.html)
+  <br>    
+  Click Here to navigate to my [#Static Page My Profile](https://sasank09.github.io/Sasank09/MyProfile/index.html)
   </samp>
 </p>
 
