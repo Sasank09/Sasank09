@@ -12,7 +12,7 @@
   <a href ="https://sasank-tipparaju-dev-ed.my.site.com/" target="_blank">Portfolio Link</a>  (using Salesforce Lightning Framework (LWC, Flow))
   <br><br>
   
- ** <small>- old one*** NOTUPDATED YET Click Here to navigate to my [#Static Page My Profile](https://sasank09.github.io/Sasank09/MyProfile/index.html)</small>
+  <p>- old one*** NOTUPDATED YET Click Here to navigate to my [#Static Page My Profile](https://sasank09.github.io/Sasank09/MyProfile/index.html)</p>
   </samp>
 </p>
 
