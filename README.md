@@ -3,43 +3,28 @@
   <br><br>
   <samp>
     I'm Sasank Tipparaju :wave:
+    <details>
+  <summary> <b> Things to know about me! </b> <i>(click to expand!)</i> </summary>
     <br><br>
-    I work as a Software Developer :coffee: . I started to love and do full stack development (Salesforce, PHP, MERN) projects as a hobby! I begin doing projects with PHP - MySQL , MERN web applications. Along with it I continue to improve myself by exploring Salesforce stack.
+    I work as a Software Developer :coffee: . I started to love and do full stack development (Salesforce, PHP, MERN) projects as a hobby! I begin doing projects with PHP - MySQL , MERN, Reactjs SpringBoot, LWC- Apex Baased web applications. Along with it I continue to improve myself by exploring Salesforce stack.
   #Anime lover #Cricket #loves challenges
     <br><br>
-    Currently I'm pursuing master's degree at University of Central Missouri. And 👀 I’m interested in Salesforce / Web Technologies/ Software Development ...
-    <br><br>
-  <a href ="https://sasank-tipparaju-dev-ed.my.site.com/" target="_blank">Portfolio Link</a>  (using Salesforce Lightning Framework (LWC, Flow))
-  <br><br>
-  
-  <p>- old one*** NOTUPDATED YET Click Here to navigate to my [#Static Page My Profile](https://sasank09.github.io/Sasank09/MyProfile/index.html)</p>
+    👀 I’m interested in Salesforce / Web Technologies/ Software Development ...
+    <br>
+      <pre>An enthusiastic traiblazer who explores and learn new features in Salesforce ecosystem. I'd also love to have any open opportunities coming to me related to Javascript full stack development - React, Node, Next and any upcoming JS frameworks
+       </pre>
+    <br>
   </samp>
 </p>
-
 <br>
-
-<details>
-  <summary> <b> Things to know about me! </b> <i>(click to expand!)</i> </summary>
-  
-  <br>
----
-  - An enthusiastic traiblazer who explores and learn new features in Salesforce ecosystem
-  - I'd also love to have any open opportunities coming to me related to Javascript full stack development - React, Node, Next and any upcoming JS frameworks
-  
+ 
 ###  - Follow me on
    <a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/">
     <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/png/social/linkedin.png" alt="example badge" style="vertical-align:top margin:6px 4px">
   </a>
-  <a href="https://trailblazer.me/id/sasank09">
-    <img src="" alt="Trailhead" style="vertical-align:top margin:6px 4px">
-  </a>
     <a href="https://www.instagram.com/sasank_09/?hl=en">
     <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/png/social/instagram.png" alt="example badge" style="vertical-align:top margin:6px 4px">
   </a>
-  
-  
- 
-
 
 
 ---
