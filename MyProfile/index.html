@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,18 +37,26 @@
         nav {
             background-color: #444;
             text-align: center;
+            margin-top: 100px; /* Adjust this margin to prevent overlap with header */
         }
 
         nav a {
             text-decoration: none;
             color: white;
-            display: inline-block;
-            padding: 10px 20px;
+            display: block;
+            padding: 10px 0;
+        }
+
+        .nav-fixed {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1;
         }
 
         .content {
             padding: 20px;
-            margin-top: 100px;
+            margin-top: 140px; /* Adjust this margin to prevent overlap with fixed navigation */
         }
 
         .content h2 {
@@ -88,13 +95,12 @@
         }
     </style>
 </head>
-
 <body>
     <div class="container">
         <header>
             <h1>Venkata Lakshmi Sasank Tipparaju</h1>
         </header>
-        <nav>
+        <nav class="nav-fixed">
             <a href="#aboutGrid">Home</a>
             <a href="#workGrid">Work</a>
             <a href="#projectGrid">Projects</a>
@@ -255,5 +261,4 @@
         </footer>
     </div>
 </body>
-
 </html>
