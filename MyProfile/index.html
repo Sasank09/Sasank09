@@ -8,11 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Sasank Tipparaju's Profile</title>
     <style>
-        tr:hover {background-color: gold;}
+        tr:hover {
+            background-color: gold;
+        }
+
+        .w3-container-mobile {
+            max-width: 100%;
+        }
     </style>
 </head>
 
-<body class="w3-content" style="max-width:100%">
+<body class="w3-content w3-container-mobile">
     <main class="w3-black">
         <div class="w3-top">
             <div class="w3-bar w3-black w3-card">
@@ -20,9 +26,9 @@
                     href="javascript:void(0)" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
                 <a href="#aboutGrid" class="w3-bar-item w3-button w3-padding-large" id="home">Home</a>
                 <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-                    id="work_exp">Education/Work Overview</a>
+                    id="work_exp">Work/Education</a>
                 <a href="#projectGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-                    id="project">Personal Projects</a>
+                    id="project">Projects</a>
                 <a href="resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
                     id="resume">Resume</a>
                 <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
@@ -33,9 +39,9 @@
         <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
         <div id="smallScreenNav" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
             <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
-                id="work_exp">Education/Work Overview</a>
+                id="work_exp">Work/Education</a>
             <a href="#projectGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
-                id="project">Personal Projects</a>
+                id="project">Projects</a>
             <a href="resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
                 id="resume">Resume</a>
             <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
@@ -50,7 +56,8 @@
                     <img src="images/pp.jpg" class="w3-margin w3-circle" alt="Person" style="width:20%; height:05%">
                     <div class="w3-left-align w3-padding-small">
                         <p>Hi there, you can call me Sasank. Welcome to my static page</p>
-                        <p style="text-align:justify">&emsp;&emsp; Highly motivated computer science graduate with 5+ years of programming experience 
+                        <p style="text-align:justify">
+                            Highly motivated computer science graduate with 5+ years of programming experience
                             and a software developer with profession IT experience of over 3 years passionate about
                             Salesforce ecosystem and web development. Specialized in Agile, Object Oriented Programming,
                             and Web technology.
@@ -59,9 +66,9 @@
                             identifying opportunities to improve the user experience (Salesforce.com). A fast learner
                             and able to work independently with minimal supervision.
                             Involved in end-end project implementation from planning, development, monitoring,
-                            delivering and played an active role in all agile ceremonies.</p>
+                            delivering and played an active role in all agile ceremonies.
+                        </p>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -174,40 +181,54 @@
                         </tr>
                         <tr class="w3-white">
                             <td>MindMapping Application</td>
-                            <td style="text-align: justify;">A Spring Boot Reactjs Application, that lets the end users create and visualize the ideas, relating them around a central core concept</td>
+                            <td style="text-align: justify;">A Spring Boot Reactjs Application, that lets the end users
+                                create and visualize the ideas, relating them around a central core concept</td>
                             <td>2023</td>
                             <td><a href="https://github.com/Sasank09/MindMapping" target="_blank">Click Here</a></td>
                             <td>React Js, Redux, Spring Boot, REST API, JWT Authentication</td>
                         </tr>
                         <tr class="w3-white w3-border">
                             <td>To-Do-List Web Application</td>
-                            <td style="text-align: justify;">A to-do list web application let's the end users can manage their day-to-day tasks or things that must be completed in a day in much more organized way with a due date and also order by prioritizing them and marking the status as completed once done.</td>
+                            <td style="text-align: justify;">A to-do list web application let's the end users can
+                                manage their day-to-day tasks or things that must be completed in a day in much more
+                                organized way with a due date and also order by prioritizing them and marking the status as
+                                completed once done.</td>
                             <td>2022</td>
                             <td><a href="https://github.com/Sasank09/todo-list" target="_blank">Click Here</a></td>
                             <td>PHP, CSS, Boostrap, JavaScript. jQuery, JSON, Ajax Calls, REST API's</td>
                         </tr>
                         <tr class="w3-white w3-border">
                             <td>Blog Web Application</td>
-                            <td style="text-align: justify;">A simple blog application created using MERN. stack. This application lets end users to create and publish their creative ideas or experiences in the form of blogs. Each post has a unique Id and an author that distinguishes between other posts in the application. A user can post more than one blog and can comment, like or dislike on other user blogs. Our Blog application has mainly three collections Users, Stories, and Comments in MongoDB to store the required data respectively</td>
+                            <td style="text-align: justify;">A simple blog application created using MERN. stack. This
+                                application lets end users to create and publish their creative ideas or experiences in
+                                the form of blogs. Each post has a unique Id and an author that distinguishes between other
+                                posts in the application. A user can post more than one blog and can comment, like or
+                                dislike on other user blogs. Our Blog application has mainly three collections Users,
+                                Stories, and Comments in MongoDB to store the required data respectively</td>
                             <td>2022</td>
                             <td><a href="" target="_blank">Click Here</a></td>
                             <td>MERN Stack, REST API, JWT Auth</td>
                         </tr>
                         <tr class="w3-white w3-border">
                             <td>Sign Language Recognition System</td>
-                            <td style="text-align: justify;">Applying Course Knowledge & Experimenting with various machine learning algorithms i.e., Experimental Analysis of algorithms Support Vector Machine, Decision Tree, Random Forest, Xgboost, and LightGBM in the area of SLRS. Loaded the datasets from Kaggle, divided into training and testing datasets, performed Image Augmentation, Preprocessing of data and CNN Layering techniques before passing to ML algorithms</td>
+                            <td style="text-align: justify;">Applying Course Knowledge & Experimenting with various
+                                machine learning algorithms i.e., Experimental Analysis of algorithms Support Vector
+                                Machine, Decision Tree, Random Forest, Xgboost, and LightGBM in the area of SLRS. Loaded the
+                                datasets from Kaggle, divided into training and testing datasets, performed Image
+                                Augmentation, Preprocessing of data and CNN Layering techniques before passing to ML
+                                algorithms</td>
                             <td>2022</td>
-                            <td><a href="https://github.com/Sasank09/Sign-Language-Recognition-System" target="_blank">Click Here</a></td>
+                            <td><a href="https://github.com/Sasank09/Sign-Language-Recognition-System" target="_blank">Click
+                                Here</a></td>
                             <td>Machine Learning, Python</td>
                         </tr>
-                        <tr class="w3-white w3-border">
+                        <tr class="w3-white">
                             <td>Portfolio</td>
                             <td>All about Sasank in one place- Using Salesforce Stack </td>
                             <td>In Development</td>
                             <td><a href="https://sasank-tipparaju-dev-ed.my.site.com/" target="_blank">Click Here</a></td>
                             <td>Salesforce, LWC, Apex, SOQL, Flows</td>
                         </tr>
-
                     </table>
                 </div>
             </div>
@@ -247,8 +268,8 @@
         var $ = (id) => document.getElementById(id);
         let height = screen.height;
 
-        $("projectGrid").style.height = height+"px";
-        $("workGrid").style.height = height+"px";
+        $("projectGrid").style.height = height + "px";
+        $("workGrid").style.height = height + "px";
 
         // Used to toggle the menu on small screens when clicking on the menu button
         function toggleMenu() {
@@ -259,7 +280,6 @@
                 x.className = x.className.replace(" w3-show", "");
             }
         }
-
     </script>
 </body>
 
