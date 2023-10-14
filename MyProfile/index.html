@@ -8,27 +8,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Sasank Tipparaju's Profile</title>
     <style>
-        tr:hover {
-            background-color: gold;
+        tr:hover {background-color: gold;}
+        .w3-header {
+            background-color: #4CAF50;
+            color: white;
         }
-
-        .w3-container-mobile {
-            max-width: 100%;
+        .w3-footer {
+            background-color: #333;
+            color: white;
+        }
+        .contact-link {
+            text-decoration: none;
+            color: #2196F3;
+            transition: color 0.3s;
+        }
+        .contact-link:hover {
+            color: #4CAF50;
         }
     </style>
 </head>
 
-<body class="w3-content w3-container-mobile">
+<body class="w3-content" style="max-width:100%">
     <main class="w3-black">
         <div class="w3-top">
-            <div class="w3-bar w3-black w3-card">
+            <div class="w3-bar w3-header w3-card">
                 <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
                     href="javascript:void(0)" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
                 <a href="#aboutGrid" class="w3-bar-item w3-button w3-padding-large" id="home">Home</a>
-                <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-                    id="work_exp">Work/Education</a>
+                <a href="#workGrid" class "w3-bar-item w3-button w3-padding-large w3-hide-small"
+                    id="work_exp">Education/Work Overview</a>
                 <a href="#projectGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-                    id="project">Projects</a>
+                    id="project">Personal Projects</a>
                 <a href="resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
                     id="resume">Resume</a>
                 <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
@@ -37,11 +47,11 @@
         </div>
 
         <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-        <div id="smallScreenNav" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
+        <div id="smallScreenNav" class="w3-bar-block w3-header w3-hide w3-hide-large w3-hide-medium w3-top">
             <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
-                id="work_exp">Work/Education</a>
+                id="work_exp">Education/Work Overview</a>
             <a href="#projectGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
-                id="project">Projects</a>
+                id="project">Personal Projects</a>
             <a href="resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
                 id="resume">Resume</a>
             <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
@@ -49,15 +59,14 @@
         </div>
 
         <!-- First Grid: Logo & About -->
-        <div id="aboutGrid" class="w3-row" style="height: 750px;">
+        <div id="aboutGrid" class="w3-row" style="background-color: #f5f5f5; height: 750px;">
             <div class="w3-full w3-blue-grey w3-container">
                 <div class="w3-padding-64 w3-center w3-padding-large">
                     <h1>Venkata Lakshmi Sasank Tipparaju</h1>
                     <img src="images/pp.jpg" class="w3-margin w3-circle" alt="Person" style="width:20%; height:05%">
                     <div class="w3-left-align w3-padding-small">
                         <p>Hi there, you can call me Sasank. Welcome to my static page</p>
-                        <p style="text-align:justify">
-                            Highly motivated computer science graduate with 5+ years of programming experience
+                        <p style="text-align:justify">&emsp;&emsp; Highly motivated computer science graduate with 5+ years of programming experience 
                             and a software developer with profession IT experience of over 3 years passionate about
                             Salesforce ecosystem and web development. Specialized in Agile, Object Oriented Programming,
                             and Web technology.
@@ -66,9 +75,9 @@
                             identifying opportunities to improve the user experience (Salesforce.com). A fast learner
                             and able to work independently with minimal supervision.
                             Involved in end-end project implementation from planning, development, monitoring,
-                            delivering and played an active role in all agile ceremonies.
-                        </p>
+                            delivering and played an active role in all agile ceremonies.</p>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -166,7 +175,7 @@
         </div>
         <hr>
         <!-- Third Grid: Projects -->
-        <div id="projectGrid" class="w3-row w3-margin-top w3-indigo" style="height:100%">
+        <div id="projectGrid" class="w3-row w3-margin-top w3-indigo" style="background-color: #f5f5f5; height:100%">
             <br><br>
             <div class="w3-full w3-indigo w3-container w3-center" id="project_list">
                 <h2>Projects</h2>
@@ -181,61 +190,47 @@
                         </tr>
                         <tr class="w3-white">
                             <td>MindMapping Application</td>
-                            <td style="text-align: justify;">A Spring Boot Reactjs Application, that lets the end users
-                                create and visualize the ideas, relating them around a central core concept</td>
+                            <td style="text-align: justify;">A Spring Boot Reactjs Application, that lets the end users create and visualize the ideas, relating them around a central core concept</td>
                             <td>2023</td>
-                            <td><a href="https://github.com/Sasank09/MindMapping" target="_blank">Click Here</a></td>
+                            <td><a href="https://github.com/Sasank09/MindMapping" target="_blank" class="contact-link">Click Here</a></td>
                             <td>React Js, Redux, Spring Boot, REST API, JWT Authentication</td>
                         </tr>
                         <tr class="w3-white w3-border">
                             <td>To-Do-List Web Application</td>
-                            <td style="text-align: justify;">A to-do list web application let's the end users can
-                                manage their day-to-day tasks or things that must be completed in a day in much more
-                                organized way with a due date and also order by prioritizing them and marking the status as
-                                completed once done.</td>
+                            <td style="text-align: justify;">A to-do list web application let's the end users can manage their day-to-day tasks or things that must be completed in a day in much more organized way with a due date and also order by prioritizing them and marking the status as completed once done.</td>
                             <td>2022</td>
-                            <td><a href="https://github.com/Sasank09/todo-list" target="_blank">Click Here</a></td>
+                            <td><a href="https://github.com/Sasank09/todo-list" target="_blank" class="contact-link">Click Here</a></td>
                             <td>PHP, CSS, Boostrap, JavaScript. jQuery, JSON, Ajax Calls, REST API's</td>
                         </tr>
                         <tr class="w3-white w3-border">
                             <td>Blog Web Application</td>
-                            <td style="text-align: justify;">A simple blog application created using MERN. stack. This
-                                application lets end users to create and publish their creative ideas or experiences in
-                                the form of blogs. Each post has a unique Id and an author that distinguishes between other
-                                posts in the application. A user can post more than one blog and can comment, like or
-                                dislike on other user blogs. Our Blog application has mainly three collections Users,
-                                Stories, and Comments in MongoDB to store the required data respectively</td>
+                            <td style="text-align: justify;">A simple blog application created using MERN. stack. This application lets end users to create and publish their creative ideas or experiences in the form of blogs. Each post has a unique Id and an author that distinguishes between other posts in the application. A user can post more than one blog and can comment, like or dislike on other user blogs. Our Blog application has mainly three collections Users, Stories, and Comments in MongoDB to store the required data respectively</td>
                             <td>2022</td>
-                            <td><a href="" target="_blank">Click Here</a></td>
+                            <td><a href="" target="_blank" class="contact-link">Click Here</a></td>
                             <td>MERN Stack, REST API, JWT Auth</td>
                         </tr>
                         <tr class="w3-white w3-border">
                             <td>Sign Language Recognition System</td>
-                            <td style="text-align: justify;">Applying Course Knowledge & Experimenting with various
-                                machine learning algorithms i.e., Experimental Analysis of algorithms Support Vector
-                                Machine, Decision Tree, Random Forest, Xgboost, and LightGBM in the area of SLRS. Loaded the
-                                datasets from Kaggle, divided into training and testing datasets, performed Image
-                                Augmentation, Preprocessing of data and CNN Layering techniques before passing to ML
-                                algorithms</td>
+                            <td style="text-align: justify;">Applying Course Knowledge & Experimenting with various machine learning algorithms i.e., Experimental Analysis of algorithms Support Vector Machine, Decision Tree, Random Forest, Xgboost, and LightGBM in the area of SLRS. Loaded the datasets from Kaggle, divided into training and testing datasets, performed Image Augmentation, Preprocessing of data and CNN Layering techniques before passing to ML algorithms</td>
                             <td>2022</td>
-                            <td><a href="https://github.com/Sasank09/Sign-Language-Recognition-System" target="_blank">Click
-                                Here</a></td>
+                            <td><a href="https://github.com/Sasank09/Sign-Language-Recognition-System" target="_blank" class="contact-link">Click Here</a></td>
                             <td>Machine Learning, Python</td>
                         </tr>
-                        <tr class="w3-white">
+                        <tr class="w3-white w3-border">
                             <td>Portfolio</td>
                             <td>All about Sasank in one place- Using Salesforce Stack </td>
                             <td>In Development</td>
-                            <td><a href="https://sasank-tipparaju-dev-ed.my.site.com/" target="_blank">Click Here</a></td>
+                            <td><a href="https://sasank-tipparaju-dev-ed.my.site.com/" target="_blank" class="contact-link">Click Here</a></td>
                             <td>Salesforce, LWC, Apex, SOQL, Flows</td>
                         </tr>
+
                     </table>
                 </div>
             </div>
         </div>
         <hr>
         <!-- Fourth Grid: Swing By & Contact -->
-        <div id="contactGrid" class="w3-row w3-dark-grey">
+        <div id="contactGrid" class="w3-row w3-dark-grey" style="background-color: #333">
             <div class="w3-full w3-dark-grey w3-container w3-center">
                 <div class="w3-padding-64  w3-padding-large">
                     <h1>Swing By</h1>
@@ -248,18 +243,18 @@
                 <div class="w3-center">
                     <b><i class="fa fa-link fa-fw w3-margin-right w3-text-teal"></i>Links</b>
                     <p class="w3-teal"><a href="https://github.com/Sasank09" target="_blank"
-                            style="text-decoration: none;">Github</a></p>
+                            class="contact-link">Github</a></p>
                     <p class="w3-teal"><a href="https://trailblazer.me/id/sasank09" target="_blank"
-                            style="text-decoration: none;">Trailhead</a></p>
+                            class="contact-link">Trailhead</a></p>
                     <p class="w3-teal"><a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/" target="_blank"
-                            style="text-decoration: none;">LinkedIn</a></p>
+                            class="contact-link">LinkedIn</a></p>
                 </div>
                 <hr>
             </div>
         </div>
 
         <!-- Footer -->
-        <footer class="w3-container w3-black w3-padding-8 w3-center">
+        <footer class="w3-container w3-footer w3-padding-8 w3-center">
             <p>Powered By w3.css</p>
         </footer>
     </main>
