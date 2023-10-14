@@ -6,290 +6,240 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Profile</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 100%;
-            margin: 0;
-            padding: 0;
-            background-color: #fff;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        header h1 {
-            font-size: 24px;
-        }
-
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        .icon-bar {
-            display: none;
-        }
-
-        .icon-bar a {
-            float: left;
-            display: block;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            color: white;
-        }
-
-        .content {
-            padding: 20px;
-        }
-
-        .content h2 {
-            font-size: 20px;
-            color: #333;
-        }
-
-        .content table {
-            width: 100%;
-            overflow-x: auto;
-            white-space: nowrap;
-            background-color: #fff;
-        }
-
-        .content th,
-        .content td {
-            text-align: left;
-            padding: 8px;
-        }
-
-        .content tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        .contact-link {
-            text-decoration: none;
-            color: #008080;
-        }
-
-        footer {
-            background-color: #444;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-
-        @media screen and (max-width: 600px) {
-            nav a {
-                display: none;
-            }
-
-            .icon-bar {
-                display: block;
-            }
-        }
+        tr:hover {background-color: gold;}
     </style>
 </head>
 
-<body>
-    <div class="container">
-        <header>
-            <h1>Venkata Lakshmi Sasank Tipparaju</h1>
-        </header>
-        <nav>
-            <a href="#aboutGrid">Home</a>
-            <a href="#workGrid">Work</a>
-            <a href="#projectGrid">Projects</a>
-            <a href="#contactGrid">Contact</a>
-            <div class="icon-bar">
-                <a href="#aboutGrid"><i class="fa fa-home"></i></a>
-                <a href="#workGrid"><i class="fa fa-briefcase"></i></a>
-                <a href="#projectGrid"><i class="fa fa-cogs"></i></a>
-                <a href="#contactGrid"><i class="fa fa-envelope"></i></a>
-            </div>
-        </nav>
-        <div class="content" id="aboutGrid">
-            <h2>About Me</h2>
-            <p>
-                Hi there, you can call me Sasank. Welcome to my static page.
-                Highly motivated computer science graduate with 5+ years of programming experience and a software developer with profession IT experience of over 3 years passionate about Salesforce ecosystem and web development. Specialized in Agile, Object Oriented Programming, and Web technology.
-                Always eager to learn new technology and applying them to solve real-world problems by innovative software solutions. Adept at developing CRM solutions for client businesses and identifying opportunities to improve the user experience (Salesforce.com). A fast learner and able to work independently with minimal supervision.
-                Involved in end-end project implementation from planning, development, monitoring, delivering and played an active role in all agile ceremonies.
-            </p>
-        </div>
-        <div class="content" id="workGrid">
-            <h2>Work History Overview</h2>
-            <table>
-                <tr>
-                    <th>Year</th>
-                    <th>Organization</th>
-                    <th>Location</th>
-                    <th>Role</th>
-                    <th>Key Skills</th>
-                </tr>
-                <tr>
-                    <td>Apr 2023 - May 2023</td>
-                    <td>SmartInternZ</td>
-                    <td>Remote</td>
-                    <td>Salesforce Administrator</td>
-                    <td>Salesforce.com Configurations & Development, Reports & Dashboard, Sales Cloud, Service Cloud</td>
-                </tr>
-                <tr>
-                    <td>Apr 2021 - Jul 2022</td>
-                    <td>PriceWaterhouseCoopers (PwC)</td>
-                    <td>Bangalore, India</td>
-                    <td>Software Developer(Salesforce)</td>
-                    <td>LWC, Aura, Apex, Triggers, SOQL, Salesforce Lightning, Salesforce.com Configurations & Development</td>
-                </tr>
-                <tr>
-                    <td>Aug 2020 - Apr 2021</td>
-                    <td>Cognizant Technology Solutions</td>
-                    <td>Chennai, India</td>
-                    <td>Programmer Analyst Trainee</td>
-                    <td>Informatica PowerCenter, MySQL, Unix Shell Scripting, Salesforce, Apex Test Classes</td>
-                </tr>
-                <tr>
-                    <td>Dec 2019 - Jan 2020</td>
-                    <td>Cognizant</td>
-                    <td>Chennai, India</td>
-                    <td>Early Engagement Program</td>
-                    <td>MySQL, Java, Spring MVC, Spring Boot, Unix, Web Application Development</td>
-                </tr>
-            </table>
-            <h2>Education History Overview</h2>
-            <table>
-                <tr>
-                    <th>Year</th>
-                    <th>Qualification</th>
-                    <th>School/University</th>
-                    <th>Location</th>
-                    <th>Grade/Percentage</th>
-                </tr>
-                <tr>
-                    <td>Aug 2022 - Exp. Dec 2023</td>
-                    <td>Master of Science in Computer Science</td>
-                    <td>University of Central Missouri</td>
-                    <td>Lees' Summit, Missouri, USA</td>
-                    <td>*4.0/4.0 GPA</td>
-                </tr>
-                <tr>
-                    <td>Jun 2016 - May 2020</td>
-                    <td>Bachelor of Technology in Computer Science & Engineering</td>
-                    <td>SASTRA Deemed University</td>
-                    <td>Thanjavur, India</td>
-                    <td>7.35 CGPA (3.42/4 GPA)</td>
-                </tr>
-                <tr>
-                    <td>Jun 2015 - Apr 2016</td>
-                    <td>Intermediate 12th Standard</td>
-                    <td>Sri Chaitanya Junior College</td>
-                    <td>Nellore, India</td>
-                    <td>9.5/10 GPA</td>
-                </tr>
-                <tr>
-                    <td>Jun 2013 - Apr 2014</td>
-                    <td>10th Standard (SSC)</td>
-                    <td>Sri Netaji Pilot (E.M) High School</td>
-                    <td>Nellore, India</td>
-                    <td>96.9%</td>
-                </tr>
-            </table>
-        </div>
-        <div class="content" id="projectGrid">
-            <h2>Projects</h2>
-            <table>
-                <tr>
-                    <th>Project Title</th>
-                    <th>Description</th>
-                    <th>Duration</th>
-                    <th>Link</th>
-                    <th>Key Skills</th>
-                </tr>
-                <tr>
-                    <td>MindMapping Application</td>
-                    <td>A Spring Boot Reactjs Application that lets end users create and visualize ideas around a central core concept.</td>
-                    <td>2023</td>
-                    <td><a href="https://github.com/Sasank09/MindMapping" target="_blank" class="contact-link">Click Here</a></td>
-                    <td>React Js, Redux, Spring Boot, REST API, JWT Authentication</td>
-                </tr>
-                <tr>
-                    <td>To-Do-List Web Application</td>
-                    <td>A to-do list web application that helps users manage their tasks, set due dates, prioritize, and mark as completed.</td>
-                    <td>2022</td>
-                    <td><a href="https://github.com/Sasank09/todo-list" target="_blank" class="contact-link">Click Here</a></td>
-                    <td>PHP, CSS, Bootstrap, JavaScript, jQuery, JSON, Ajax Calls, REST APIs</td>
-                </tr>
-                <tr>
-                    <td>Blog Web Application</td>
-                    <td>A simple blog application created using MERN stack, allowing users to create, publish, and interact with blog posts.</td>
-                    <td>2022</td>
-                    <td><a href="#" target="_blank" class="contact-link">Click Here</a></td>
-                    <td>MERN Stack, REST API, JWT Auth</td>
-                </tr>
-                <tr>
-                    <td>Sign Language Recognition System</td>
-                    <td>An experimental analysis of machine learning algorithms for sign language recognition.</td>
-                    <td>2022</td>
-                    <td><a href="https://github.com/Sasank09/Sign-Language-Recognition-System" target="_blank"
-                        class="contact-link">Click Here</a></td>
-                    <td>Machine Learning, Python</td>
-                </tr>
-                <tr>
-                    <td>Portfolio</td>
-                    <td>All about Sasank in one place using Salesforce Stack.</td>
-                    <td>In Development</td>
-                    <td><a href="https://sasank-tipparaju-dev-ed.my.site.com/" target="_blank"
-                        class="contact-link">Click Here</a></td>
-                    <td>Salesforce, LWC, Apex, SOQL, Flows</td>
-                </tr>
-            </table>
-        </div>
-        <div class="content" id="contactGrid">
-            <h2>Contact</h2>
-            <p>Swing By</p>
-            <p class="w3-opacity">..for a cup of coffee, or whatever.</p>
-            <p>Overland Park, Kansas, US</p>
-            <p>+1 4807969822</p>
-            <p>thipparajusasank@gmail.com</p>
-            <div class="w3-center">
-                <b><i class="fa fa-link fa-fw w3-margin-right w3-text-teal"></i>Links</b>
-                <p class="w3-teal"><a href="https://github.com/Sasank09" target="_blank" class="contact-link">Github</a></p>
-                <p class="w3-teal"><a href="https://trailblazer.me/id/sasank09" target="_blank" class="contact-link">Trailhead</a></p>
-                <p class="w3-teal"><a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/" target="_blank" class="contact-link">LinkedIn</a></p>
+<body class="w3-content" style="max-width:100%">
+    <main class="w3-black">
+        <div class="w3-top">
+            <div class="w3-bar w3-black w3-card">
+                <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                    href="javascript:void(0)" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
+                <a href="#aboutGrid" class="w3-bar-item w3-button w3-padding-large" id="home">Home</a>
+                <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+                    id="work_exp">Education/Work Overview</a>
+                <a href="#projectGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+                    id="project">Personal Projects</a>
+                <a href="resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+                    id="resume">Resume</a>
+                <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+                    id="contact">Contact</a>
             </div>
         </div>
-        <footer>
+
+        <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+        <div id="smallScreenNav" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top">
+            <a href="#workGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
+                id="work_exp">Education/Work Overview</a>
+            <a href="#projectGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
+                id="project">Personal Projects</a>
+            <a href="resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
+                id="resume">Resume</a>
+            <a href="#contactGrid" class="w3-bar-item w3-button w3-padding-large" onclick="toggleMenu()"
+                id="contact">Contact</a>
+        </div>
+
+        <!-- First Grid: Logo & About -->
+        <div id="aboutGrid" class="w3-row" style="height: 750px;">
+            <div class="w3-full w3-blue-grey w3-container">
+                <div class="w3-padding-64 w3-center w3-padding-large">
+                    <h1>Venkata Lakshmi Sasank Tipparaju</h1>
+                    <img src="images/pp.jpg" class="w3-margin w3-circle" alt="Person" style="width:20%; height:05%">
+                    <div class="w3-left-align w3-padding-small">
+                        <p>Hi there, you can call me Sasank. Welcome to my static page</p>
+                        <p style="text-align:justify">&emsp;&emsp; Highly motivated computer science graduate student
+                            and a software developer with entry-level experience of over 2.5 years passionate about
+                            Salesforce ecosystem and web development. Specialized in Agile, Object Oriented Programming,
+                            and Web technology.
+                            Always eager to learn new technology and applying them to solve real world problems by
+                            innovative software solutions. Adept at developing CRM solutions for client businesses and
+                            identifying opportunities to improve the user experience (Salesforce.com). A fast learner
+                            and able to work independently with minimal supervision.
+                            Involved in end-end project implementation from planning, development, monitoring,
+                            delivering and played an active role in all agile ceremonies.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Second Grid: Work & Resume -->
+        <div id="workGrid" class="w3-row w3-margin-top w3-indigo" style="height:auto">
+            <br><br>
+            <div class="w3-full w3-indigo w3-container w3-center" id="work">
+                <h2>Work History Overview</h2>
+                <div class="w3-container w3-responsive">
+                    <table class="w3-table">
+                        <tr class="w3-grey">
+                            <th style="width:15%">Year</th>
+                            <th>Organization</th>
+                            <th>Location</th>
+                            <th>Role</th>
+                            <th>Key Skills</th>
+                        </tr>
+                        <tr class="w3-white">
+                            <td>Apr 2021 - Jul 2022</td>
+                            <td>PriceWaterhouseCoopers (PwC)</td>
+                            <td>Bangalore, India</td>
+                            <td>Associate Salesforce Developer</td>
+                            <td>LWC, Aura, Apex, Triggers, SOQL, Salesforce Lightning, Salesforce.com Configurations
+                                &#38 Development</td>
+                        </tr>
+                        <tr class="w3-white w3-border">
+                            <td>Aug 2020 - Apr 2021</td>
+                            <td>Cognizant Technology Solutions</td>
+                            <td>Chennai, India</td>
+                            <td>Programmer Analyst Trainee</td>
+                            <td>Informatica PowerCenter, MySQL, Unix Shell Scripting, Salesforce, Apex Test Classes</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="w3-full w3-indigo w3-container">
+                <div class="w3-padding-64 w3-center">
+                    <h2>Education History Overview</h2>
+                    <div class="w3-container w3-responsive">
+                        <table class="w3-table w3-striped">
+                            <tr class="w3-grey">
+                                <th>Year</th>
+                                <th>Qualification</th>
+                                <th>School/University</th>
+                                <th>Location</th>
+                                <th>Grade/Percentage</th>
+                            </tr>
+                            <tr class="w3-white">
+                                <td>Aug 2022 - Exp. Dec 2023</td>
+                                <td>Master of Science in Computer Science</td>
+                                <td>University of Central Missouri</td>
+                                <td>Lees' Summit, Missouri, USA</td>
+                                <td>*4.0/4.0 GPA</td>
+                            </tr>
+                            <tr class="w3-white w3-border">
+                                <td>Jun 2016 - May 2020</td>
+                                <td>Bachelor of Technology in Computer Science &#38 Engineering</td>
+                                <td>SASTRA Deemed University</td>
+                                <td>Thanjavur, India</td>
+                                <td>7.35 CGPA (3.42/4 GPA)</td>
+                            </tr>
+                            <tr class="w3-white w3-border">
+                                <td>Jun 2015 - Apr 2016</td>
+                                <td>Intermediate 12<sup>th</sup> Standard</td>
+                                <td>Sri Chaitanya Junior College</td>
+                                <td>Nellore, India</td>
+                                <td>9.5/10 GPA </td>
+                            </tr>
+                            <tr class="w3-white">
+                                <td>Jun 2013 - Apr 2014</td>
+                                <td>10<sup>th</sup> Standard (SSC)</td>
+                                <td>Sri Netaji Pilot (E.M) High School</td>
+                                <td>Nellore, India</td>
+                                <td>96.9%</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Third Grid: Projects -->
+        <div id="projectGrid" class="w3-row w3-margin-top w3-indigo" style="height:100%">
+            <br><br>
+            <div class="w3-full w3-indigo w3-container w3-center" id="project_list">
+                <h2>Academic/ Personal Projects</h2>
+                <div class="w3-container w3-responsive">
+                    <table class="w3-table w3-striped">
+                        <tr class="w3-grey">
+                            <th style="width:15%">Project Title</th>
+                            <th style="width:30%">Description</th>
+                            <th style="width:7%">Duration</th>
+                            <th style="width:7%">Link</th>
+                            <th style="width:15%">Key Skills</th>
+                        </tr>
+                        <tr class="w3-white">
+                            <td>To-Do-List Web Application</td>
+                            <td style="text-align: justify;">A simple to-do list web application, that the end users can manage their day-to-day tasks or things that must be completed in a day in much more organized way with a due date and also order by prioritizing them and marking the status as completed once done.</td>
+                            <td>Fall 2022</td>
+                            <td><a href="https://sasank-todo-list.herokuapp.com/" target="_blank">Click Here</a></td>
+                            <td>PHP, CSS, Boostrap, JavaScript. jQuery, JSON, Ajax Calls, Post/Get Methods</td>
+                        </tr>
+                        <tr class="w3-white w3-border">
+                            <td>Blog Web Application</td>
+                            <td style="text-align: justify;">A simple blog application created using MERN. stack. This application lets end users to create and publish their creative ideas or experiences in the form of blogs. Each post has a unique Id and an author that distinguishes between other posts in the application. A user can post more than one blog and can comment, like or dislike on other user blogs. Our Blog application has mainly three collections Users, Stories, and Comments in MongoDB to store the required data respectively</td>
+                            <td>Fall 2022</td>
+                            <td><a href="" target="_blank">Click Here</a></td>
+                            <td>MERN Stack</td>
+                        </tr>
+                        <tr class="w3-white w3-border">
+                            <td>Sign Language Recognition System</td>
+                            <td style="text-align: justify;">Applying Course Knowledge & Experimenting with various machine learning algorithms i.e., Experimental Analysis of algorithms Support Vector Machine, Decision Tree, Random Forest, Xgboost, and LightGBM in the area of SLRS. Loaded the datasets from Kaggle, divided into training and testing datasets, performed Image Augmentation, Preprocessing of data and CNN Layering techniques before passing to ML algorithms</td>
+                            <td>Fall 2022</td>
+                            <td><a href="https://github.com/Sasank09/Sign-Language-Recognition-System" target="_blank">Click Here</a></td>
+                            <td>Machine Learning, Python</td>
+                        </tr>
+                        <tr class="w3-white w3-border">
+                            <td>Portfolio</td>
+                            <td>All about Sasank in one place</td>
+                            <td>In Development</td>
+                            <td><a href="" target="_blank">Click Here</a></td>
+                            <td>Salesforce, LWC, Apex, SOQL, Flows</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Fourth Grid: Swing By & Contact -->
+        <div id="contactGrid" class="w3-row w3-dark-grey">
+            <div class="w3-full w3-dark-grey w3-container w3-center">
+                <div class="w3-padding-64  w3-padding-large">
+                    <h1>Swing By</h1>
+                    <p class="w3-opacity">..for a cup of coffee, or whatever.</p>
+                    <p>Overland Park, Kansas, US</p>
+                    <p>+1 4807969822</p>
+                    <p>thipparajusasank@gmail.com</p>
+                </div>
+                <hr>
+                <div class="w3-center">
+                    <b><i class="fa fa-link fa-fw w3-margin-right w3-text-teal"></i>Links</b>
+                    <p class="w3-teal"><a href="https://github.com/Sasank09" target="_blank"
+                            style="text-decoration: none;">Github</a></p>
+                    <p class="w3-teal"><a href="https://trailblazer.me/id/sasank09" target="_blank"
+                            style="text-decoration: none;">Trailhead</a></p>
+                    <p class="w3-teal"><a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/" target="_blank"
+                            style="text-decoration: none;">LinkedIn</a></p>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-black w3-padding-8 w3-center">
             <p>Powered By w3.css</p>
         </footer>
-    </div>
+    </main>
+
     <script>
-        function openNav() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
+        var $ = (id) => document.getElementById(id);
+        let height = screen.height;
+
+        $("projectGrid").style.height = height+"px";
+        $("workGrid").style.height = height+"px";
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleMenu() {
+            var x = document.getElementById("smallScreenNav");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
             } else {
-                x.className = "topnav";
+                x.className = x.className.replace(" w3-show", "");
             }
         }
+
     </script>
 </body>
+
 </html>
