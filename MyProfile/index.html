@@ -34,14 +34,28 @@
         }
 
         nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background-color: #444;
-            z-index: 1;
+            background-color: #333;
+            overflow: hidden;
         }
 
         nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .icon-bar {
+            display: none;
+        }
+
+        .icon-bar a {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
             color: white;
         }
@@ -60,7 +74,8 @@
             white-space: nowrap;
         }
 
-        .content th, .content td {
+        .content th,
+        .content td {
             text-align: left;
             padding: 8px;
         }
@@ -80,6 +95,16 @@
             text-align: center;
             padding: 10px;
         }
+
+        @media screen and (max-width: 600px) {
+            nav a {
+                display: none;
+            }
+
+            .icon-bar {
+                display: block;
+            }
+        }
     </style>
 </head>
 
@@ -93,6 +118,12 @@
             <a href="#workGrid">Work</a>
             <a href="#projectGrid">Projects</a>
             <a href="#contactGrid">Contact</a>
+            <div class="icon-bar">
+                <a href="#aboutGrid"><i class="fa fa-home"></i></a>
+                <a href="#workGrid"><i class="fa fa-briefcase"></i></a>
+                <a href="#projectGrid"><i class="fa fa-cogs"></i></a>
+                <a href="#contactGrid"><i class="fa fa-envelope"></i></a>
+            </div>
         </nav>
         <div class="content" id="aboutGrid">
             <h2>About Me</h2>
@@ -216,14 +247,16 @@
                     <td>Sign Language Recognition System</td>
                     <td>An experimental analysis of machine learning algorithms for sign language recognition.</td>
                     <td>2022</td>
-                    <td><a href="https://github.com/Sasank09/Sign-Language-Recognition-System" target="_blank" class="contact-link">Click Here</a></td>
+                    <td><a href="https://github.com/Sasank09/Sign-Language-Recognition-System" target="_blank"
+                            class="contact-link">Click Here</a></td>
                     <td>Machine Learning, Python</td>
                 </tr>
                 <tr>
                     <td>Portfolio</td>
                     <td>All about Sasank in one place using Salesforce Stack.</td>
                     <td>In Development</td>
-                    <td><a href="https://sasank-tipparaju-dev-ed.my.site.com/" target="_blank" class="contact-link">Click Here</a></td>
+                    <td><a href="https://sasank-tipparaju-dev-ed.my.site.com/" target="_blank"
+                            class="contact-link">Click Here</a></td>
                     <td>Salesforce, LWC, Apex, SOQL, Flows</td>
                 </tr>
             </table>
