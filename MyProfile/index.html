@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sasank Tipparaju's Profile</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -11,12 +11,14 @@
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
             margin: 0;
+            padding: 0;
         }
 
         .container {
-            background-color: #ffffff;
+            max-width: 100%;
             margin: 0;
             padding: 0;
+            background-color: #fff;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         }
 
@@ -25,9 +27,6 @@
             color: white;
             text-align: center;
             padding: 20px;
-            position: fixed;
-            top: 0;
-            width: 100%;
         }
 
         header h1 {
@@ -35,50 +34,38 @@
         }
 
         nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
             background-color: #444;
-            text-align: center;
-            margin-top: 100px; /* Adjust this margin to prevent overlap with header */
+            z-index: 1;
         }
 
         nav a {
             text-decoration: none;
             color: white;
-            display: block;
-            padding: 10px 0;
-        }
-
-        .nav-fixed {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1;
         }
 
         .content {
             padding: 20px;
-            margin-top: 140px; /* Adjust this margin to prevent overlap with fixed navigation */
         }
 
         .content h2 {
             font-size: 20px;
         }
 
-        .table-container {
-            overflow-x: auto;
-        }
-
-        table {
+        .content table {
             width: 100%;
-            border-collapse: collapse;
+            overflow-x: auto;
+            white-space: nowrap;
         }
 
-        th, td {
-            padding: 10px;
+        .content th, .content td {
             text-align: left;
-            border-bottom: 1px solid #ddd;
+            padding: 8px;
         }
 
-        tr:nth-child(even) {
+        .content tr:nth-child(even) {
             background-color: #f2f2f2;
         }
 
@@ -95,12 +82,13 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>Venkata Lakshmi Sasank Tipparaju</h1>
         </header>
-        <nav class="nav-fixed">
+        <nav>
             <a href="#aboutGrid">Home</a>
             <a href="#workGrid">Work</a>
             <a href="#projectGrid">Projects</a>
@@ -111,91 +99,87 @@
             <p>
                 Hi there, you can call me Sasank. Welcome to my static page.
                 Highly motivated computer science graduate with 5+ years of programming experience and a software developer with profession IT experience of over 3 years passionate about Salesforce ecosystem and web development. Specialized in Agile, Object Oriented Programming, and Web technology.
-                Always eager to learn new technology and applying them to solve real-world problems by innovative software solutions. A fast learner and able to work independently with minimal supervision.
+                Always eager to learn new technology and applying them to solve real-world problems by innovative software solutions. Adept at developing CRM solutions for client businesses and identifying opportunities to improve the user experience (Salesforce.com). A fast learner and able to work independently with minimal supervision.
                 Involved in end-end project implementation from planning, development, monitoring, delivering and played an active role in all agile ceremonies.
             </p>
         </div>
         <div class="content" id="workGrid">
             <h2>Work History Overview</h2>
-            <div class="table-container">
-                <table>
-                    <tr>
-                        <th>Year</th>
-                        <th>Organization</th>
-                        <th>Location</th>
-                        <th>Role</th>
-                        <th>Key Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Apr 2023 - May 2023</td>
-                        <td>SmartInternZ</td>
-                        <td>Remote</td>
-                        <td>Salesforce Administrator</td>
-                        <td>Salesforce.com Configurations & Development, Reports & Dashboard, Sales Cloud, Service Cloud</td>
-                    </tr>
-                    <tr>
-                        <td>Apr 2021 - Jul 2022</td>
-                        <td>PriceWaterhouseCoopers (PwC)</td>
-                        <td>Bangalore, India</td>
-                        <td>Software Developer(Salesforce)</td>
-                        <td>LWC, Aura, Apex, Triggers, SOQL, Salesforce Lightning, Salesforce.com Configurations & Development</td>
-                    </tr>
-                    <tr>
-                        <td>Aug 2020 - Apr 2021</td>
-                        <td>Cognizant Technology Solutions</td>
-                        <td>Chennai, India</td>
-                        <td>Programmer Analyst Trainee</td>
-                        <td>Informatica PowerCenter, MySQL, Unix Shell Scripting, Salesforce, Apex Test Classes</td>
-                    </tr>
-                    <tr>
-                        <td>Dec 2019 - Jan 2020</td>
-                        <td>Cognizant</td>
-                        <td>Chennai, India</td>
-                        <td>Early Engagement Program</td>
-                        <td>MySQL, Java, Spring MVC, Spring Boot, Unix, Web Application Development</td>
-                    </tr>
-                </table>
-            </div>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Organization</th>
+                    <th>Location</th>
+                    <th>Role</th>
+                    <th>Key Skills</th>
+                </tr>
+                <tr>
+                    <td>Apr 2023 - May 2023</td>
+                    <td>SmartInternZ</td>
+                    <td>Remote</td>
+                    <td>Salesforce Administrator</td>
+                    <td>Salesforce.com Configurations & Development, Reports & Dashboard, Sales Cloud, Service Cloud</td>
+                </tr>
+                <tr>
+                    <td>Apr 2021 - Jul 2022</td>
+                    <td>PriceWaterhouseCoopers (PwC)</td>
+                    <td>Bangalore, India</td>
+                    <td>Software Developer(Salesforce)</td>
+                    <td>LWC, Aura, Apex, Triggers, SOQL, Salesforce Lightning, Salesforce.com Configurations & Development</td>
+                </tr>
+                <tr>
+                    <td>Aug 2020 - Apr 2021</td>
+                    <td>Cognizant Technology Solutions</td>
+                    <td>Chennai, India</td>
+                    <td>Programmer Analyst Trainee</td>
+                    <td>Informatica PowerCenter, MySQL, Unix Shell Scripting, Salesforce, Apex Test Classes</td>
+                </tr>
+                <tr>
+                    <td>Dec 2019 - Jan 2020</td>
+                    <td>Cognizant</td>
+                    <td>Chennai, India</td>
+                    <td>Early Engagement Program</td>
+                    <td>MySQL, Java, Spring MVC, Spring Boot, Unix, Web Application Development</td>
+                </tr>
+            </table>
             <h2>Education History Overview</h2>
-            <div class="table-container">
-                <table>
-                    <tr>
-                        <th>Year</th>
-                        <th>Qualification</th>
-                        <th>School/University</th>
-                        <th>Location</th>
-                        <th>Grade/Percentage</th>
-                    </tr>
-                    <tr>
-                        <td>Aug 2022 - Exp. Dec 2023</td>
-                        <td>Master of Science in Computer Science</td>
-                        <td>University of Central Missouri</td>
-                        <td>Lees' Summit, Missouri, USA</td>
-                        <td>4.0/4.0 GPA</td>
-                    </tr>
-                    <tr>
-                        <td>Jun 2016 - May 2020</td>
-                        <td>Bachelor of Technology in Computer Science & Engineering</td>
-                        <td>SASTRA Deemed University</td>
-                        <td>Thanjavur, India</td>
-                        <td>7.35 CGPA (3.42/4 GPA)</td>
-                    </tr>
-                    <tr>
-                        <td>Jun 2015 - Apr 2016</td>
-                        <td>Intermediate 12th Standard</td>
-                        <td>Sri Chaitanya Junior College</td>
-                        <td>Nellore, India</td>
-                        <td>9.5/10 GPA</td>
-                    </tr>
-                    <tr>
-                        <td>Jun 2013 - Apr 2014</td>
-                        <td>10th Standard (SSC)</td>
-                        <td>Sri Netaji Pilot (E.M) High School</td>
-                        <td>Nellore, India</td>
-                        <td>96.9%</td>
-                    </tr>
-                </table>
-            </div>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Qualification</th>
+                    <th>School/University</th>
+                    <th>Location</th>
+                    <th>Grade/Percentage</th>
+                </tr>
+                <tr>
+                    <td>Aug 2022 - Exp. Dec 2023</td>
+                    <td>Master of Science in Computer Science</td>
+                    <td>University of Central Missouri</td>
+                    <td>Lees' Summit, Missouri, USA</td>
+                    <td>*4.0/4.0 GPA</td>
+                </tr>
+                <tr>
+                    <td>Jun 2016 - May 2020</td>
+                    <td>Bachelor of Technology in Computer Science & Engineering</td>
+                    <td>SASTRA Deemed University</td>
+                    <td>Thanjavur, India</td>
+                    <td>7.35 CGPA (3.42/4 GPA)</td>
+                </tr>
+                <tr>
+                    <td>Jun 2015 - Apr 2016</td>
+                    <td>Intermediate 12th Standard</td>
+                    <td>Sri Chaitanya Junior College</td>
+                    <td>Nellore, India</td>
+                    <td>9.5/10 GPA</td>
+                </tr>
+                <tr>
+                    <td>Jun 2013 - Apr 2014</td>
+                    <td>10th Standard (SSC)</td>
+                    <td>Sri Netaji Pilot (E.M) High School</td>
+                    <td>Nellore, India</td>
+                    <td>96.9%</td>
+                </tr>
+            </table>
         </div>
         <div class="content" id="projectGrid">
             <h2>Projects</h2>
@@ -225,7 +209,7 @@
                     <td>Blog Web Application</td>
                     <td>A simple blog application created using MERN stack, allowing users to create, publish, and interact with blog posts.</td>
                     <td>2022</td>
-                    <td><a href="" target="_blank" class="contact-link">Click Here</a></td>
+                    <td><a href="#" target="_blank" class="contact-link">Click Here</a></td>
                     <td>MERN Stack, REST API, JWT Auth</td>
                 </tr>
                 <tr>
@@ -251,9 +235,9 @@
             <p>+1 4807969822</p>
             <p>thipparajusasank@gmail.com</p>
             <p class="contact-link">
-                <a href="https://github.com/Sasank09" target="_blank" class="contact-link">Github</a> |
-                <a href="https://trailblazer.me/id/sasank09" target="_blank" class="contact-link">Trailhead</a> |
-                <a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/" target="_blank" class="contact-link">LinkedIn</a>
+                <a href="https://github.com/Sasank09" target="_blank">Github</a> |
+                <a href="https://trailblazer.me/id/sasank09" target="_blank">Trailhead</a> |
+                <a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/" target="_blank">LinkedIn</a>
             </p>
         </div>
         <footer>
@@ -261,4 +245,5 @@
         </footer>
     </div>
 </body>
+
 </html>
