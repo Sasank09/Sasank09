@@ -66,12 +66,14 @@
 
         .content h2 {
             font-size: 20px;
+            color: #333;
         }
 
         .content table {
             width: 100%;
             overflow-x: auto;
             white-space: nowrap;
+            background-color: #fff;
         }
 
         .content th,
@@ -248,7 +250,7 @@
                     <td>An experimental analysis of machine learning algorithms for sign language recognition.</td>
                     <td>2022</td>
                     <td><a href="https://github.com/Sasank09/Sign-Language-Recognition-System" target="_blank"
-                            class="contact-link">Click Here</a></td>
+                        class="contact-link">Click Here</a></td>
                     <td>Machine Learning, Python</td>
                 </tr>
                 <tr>
@@ -256,27 +258,38 @@
                     <td>All about Sasank in one place using Salesforce Stack.</td>
                     <td>In Development</td>
                     <td><a href="https://sasank-tipparaju-dev-ed.my.site.com/" target="_blank"
-                            class="contact-link">Click Here</a></td>
+                        class="contact-link">Click Here</a></td>
                     <td>Salesforce, LWC, Apex, SOQL, Flows</td>
                 </tr>
             </table>
         </div>
         <div class="content" id="contactGrid">
             <h2>Contact</h2>
-            <p>For a cup of coffee, or whatever:</p>
+            <p>Swing By</p>
+            <p class="w3-opacity">..for a cup of coffee, or whatever.</p>
             <p>Overland Park, Kansas, US</p>
             <p>+1 4807969822</p>
             <p>thipparajusasank@gmail.com</p>
-            <p class="contact-link">
-                <a href="https://github.com/Sasank09" target="_blank">Github</a> |
-                <a href="https://trailblazer.me/id/sasank09" target="_blank">Trailhead</a> |
-                <a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/" target="_blank">LinkedIn</a>
-            </p>
+            <div class="w3-center">
+                <b><i class="fa fa-link fa-fw w3-margin-right w3-text-teal"></i>Links</b>
+                <p class="w3-teal"><a href="https://github.com/Sasank09" target="_blank" class="contact-link">Github</a></p>
+                <p class="w3-teal"><a href="https://trailblazer.me/id/sasank09" target="_blank" class="contact-link">Trailhead</a></p>
+                <p class="w3-teal"><a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/" target="_blank" class="contact-link">LinkedIn</a></p>
+            </div>
         </div>
         <footer>
             <p>Powered By w3.css</p>
         </footer>
     </div>
+    <script>
+        function openNav() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
-
 </html>
