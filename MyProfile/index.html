@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sasank Tipparaju's Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,11 +53,13 @@
 
         .content table {
             width: 100%;
+            border-collapse: collapse;
         }
 
         .content th, .content td {
-            text-align: left;
             padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
         }
 
         .content tr:nth-child(even) {
@@ -77,9 +77,23 @@
             text-align: center;
             padding: 10px;
         }
+
+        /* Media queries for responsive design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 20px;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
     </style>
 </head>
-
 <body>
     <div class="container">
         <header>
@@ -164,14 +178,14 @@
                 </tr>
                 <tr>
                     <td>Jun 2015 - Apr 2016</td>
-                    <td>Intermediate 12<sup>th</sup> Standard</td>
+                    <td>Intermediate 12th Standard</td>
                     <td>Sri Chaitanya Junior College</td>
                     <td>Nellore, India</td>
                     <td>9.5/10 GPA</td>
                 </tr>
                 <tr>
                     <td>Jun 2013 - Apr 2014</td>
-                    <td>10<sup>th</sup> Standard (SSC)</td>
+                    <td>10th Standard (SSC)</td>
                     <td>Sri Netaji Pilot (E.M) High School</td>
                     <td>Nellore, India</td>
                     <td>96.9%</td>
@@ -231,7 +245,7 @@
             <p>Overland Park, Kansas, US</p>
             <p>+1 4807969822</p>
             <p>thipparajusasank@gmail.com</p>
-            <p class="w3-center contact-link">
+            <p class="contact-link">
                 <a href="https://github.com/Sasank09" target="_blank">Github</a> |
                 <a href="https://trailblazer.me/id/sasank09" target="_blank">Trailhead</a> |
                 <a href="https://www.linkedin.com/in/sasank-tipparaju-806408184/" target="_blank">LinkedIn</a>
@@ -242,5 +256,4 @@
         </footer>
     </div>
 </body>
-
 </html>
