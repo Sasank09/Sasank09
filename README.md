@@ -27,36 +27,36 @@
 <h2 align="center">About Me 🌟</h2>
 
 <p align="center">
-  Welcome to my GitHub profile! I'm an enthusiastic Software Developer with a passion for creating remarkable projects. My journey began with PHP, MySQL, and MERN stack development, and it's been an exciting ride ever since. I'm also deeply immersed in the world of Salesforce, constantly exploring and expanding my knowledge within its ecosystem.
+  Welcome to my GitHub profile! I'm a passionate Software Developer with a love for creating awesome projects. My journey started with PHP, MySQL, and MERN stack development, and I've been hooked ever since. I'm also deep into the world of Salesforce, constantly exploring and growing my expertise.
 </p>
 
 <!-- Points Section -->
-<h3 align="center">Things to Know About Me</h3>
+<h3 align="center">Quick Facts About Me</h3>
 
 <p align="center">
-  - 🚀 I thrive on challenges and love tackling new and exciting projects.<br>
-  - 📺 I'm a dedicated anime fan and enjoy binge-watching captivating series.<br>
-  - 🏏 Cricket is more than just a game; it's a passion I could talk about endlessly.
+  - 🚀 I thrive on challenges and love tackling new projects.<br>
+  - 📺 Naruto and One Piece fan 🐉<br>
+  - 🎮 I love playing games 🎯<br>
+  - 🏏 Cricket enthusiast 🏆
 </p>
 
 <!-- Skills Section -->
 <h3 align="center">Skills & Specialties 💡</h3>
 
 <p align="center">
-  Here are some of my core skills and specialties:
+  Here are some of my core skills:
 
-  💻 **Salesforce**: Apex, Lightning Web Components, Sales Cloud, Service Cloud<br>
+  💻 **Salesforce Development**: Apex, Lightning Web Components, Sales Cloud, Service Cloud<br>
   🌐 **Full Stack Web Development**: React, Node.js, Express, MongoDB, HTML, CSS<br>
-  🚀 **Frameworks**: MERN Stack (MongoDB, Express, React, Node.js)<br>
-  🛠️ **Tools**: VS Code, Git, Salesforce DX, Visualforce, Heroku<br>
-  ⚙️ **DevOps**: Continuous Integration/Deployment (CI/CD), Jenkins
+  🛠️ **Tools & Frameworks**: Visual Studio Code, Git, Salesforce DX, MERN Stack (MongoDB, Express, React, Node.js), Heroku<br>
+  ⚙️ **DevOps**: Continuous Integration/Deployment (CI/CD) with Jenkins
 </p>
 
 <!-- Interests Section -->
 <h3 align="center">My Interests 🌍</h3>
 
 <p align="center">
-  My journey in the Salesforce ecosystem is a continuous adventure. I'm always eager to discover new features and expand my expertise. Additionally, I'm on the lookout for opportunities in JavaScript full stack development, be it React, Node.js, Next.js, or emerging JS frameworks.
+  In the Salesforce ecosystem, I'm always eager to explore new features and expand my knowledge. I'm also on the lookout for opportunities in JavaScript full stack development, be it React, Node.js, Next.js, or emerging JS frameworks.
 
-  Let's connect through the links above! I'm always open to collaboration and making new connections.
+  Let's connect through the links above! I'm always open to collaboration and new connections.
 </p>
